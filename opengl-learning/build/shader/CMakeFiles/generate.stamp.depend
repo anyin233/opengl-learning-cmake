@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+E:/backup/opengl-learning/shader/CMakeLists.txt
+F:/vcpkg/installed/x86-windows/share/glad/gladConfig.cmake
+F:/vcpkg/installed/x86-windows/share/glad/gladConfigVersion.cmake
+F:/vcpkg/installed/x86-windows/share/glad/gladTargets-debug.cmake
+F:/vcpkg/installed/x86-windows/share/glad/gladTargets-release.cmake
+F:/vcpkg/installed/x86-windows/share/glad/gladTargets.cmake
+F:/vcpkg/installed/x86-windows/share/glfw3/glfw3Config.cmake
+F:/vcpkg/installed/x86-windows/share/glfw3/glfw3ConfigVersion.cmake
+F:/vcpkg/installed/x86-windows/share/glfw3/glfw3Targets-debug.cmake
+F:/vcpkg/installed/x86-windows/share/glfw3/glfw3Targets-release.cmake
+F:/vcpkg/installed/x86-windows/share/glfw3/glfw3Targets.cmake

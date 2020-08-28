@@ -1,0 +1,42 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CTest.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CTestTargets.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CTestUseLaunchers.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/DartConfiguration.tcl.in
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.18/Templates/CPackConfig.cmake.in
+E:/backup/opengl-learning/CMakeLists.txt
+E:/backup/opengl-learning/build/CMakeFiles/3.18.1/CMakeCCompiler.cmake
+E:/backup/opengl-learning/build/CMakeFiles/3.18.1/CMakeCXXCompiler.cmake
+E:/backup/opengl-learning/build/CMakeFiles/3.18.1/CMakeRCCompiler.cmake
+E:/backup/opengl-learning/build/CMakeFiles/3.18.1/CMakeSystem.cmake
+F:/vcpkg/installed/x86-windows/share/glad/gladConfig.cmake
+F:/vcpkg/installed/x86-windows/share/glad/gladConfigVersion.cmake
+F:/vcpkg/installed/x86-windows/share/glad/gladTargets-debug.cmake
+F:/vcpkg/installed/x86-windows/share/glad/gladTargets-release.cmake
+F:/vcpkg/installed/x86-windows/share/glad/gladTargets.cmake
+F:/vcpkg/installed/x86-windows/share/glfw3/glfw3Config.cmake
+F:/vcpkg/installed/x86-windows/share/glfw3/glfw3ConfigVersion.cmake
+F:/vcpkg/installed/x86-windows/share/glfw3/glfw3Targets-debug.cmake
+F:/vcpkg/installed/x86-windows/share/glfw3/glfw3Targets-release.cmake
+F:/vcpkg/installed/x86-windows/share/glfw3/glfw3Targets.cmake
+F:/vcpkg/installed/x86-windows/share/glm/glm-config.cmake
+F:/vcpkg/scripts/buildsystems/vcpkg.cmake

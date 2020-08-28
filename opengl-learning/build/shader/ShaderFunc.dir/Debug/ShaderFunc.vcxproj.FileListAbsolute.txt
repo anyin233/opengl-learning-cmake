@@ -1,0 +1,2 @@
+E:\backup\opengl-learning\build\shader\Debug\ShaderFunc.pdb
+E:\backup\opengl-learning\build\shader\ShaderFunc.dir\Debug\ShaderFunc.pdb
