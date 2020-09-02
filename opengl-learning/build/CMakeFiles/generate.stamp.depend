@@ -23,11 +23,11 @@ C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/WindowsPaths.cmake
 C:/Program Files/CMake/share/cmake-3.18/Templates/CPackConfig.cmake.in
-E:/backup/opengl-learning/CMakeLists.txt
-E:/backup/opengl-learning/build/CMakeFiles/3.18.1/CMakeCCompiler.cmake
-E:/backup/opengl-learning/build/CMakeFiles/3.18.1/CMakeCXXCompiler.cmake
-E:/backup/opengl-learning/build/CMakeFiles/3.18.1/CMakeRCCompiler.cmake
-E:/backup/opengl-learning/build/CMakeFiles/3.18.1/CMakeSystem.cmake
+E:/backup/hello-opengl/opengl-learning/CMakeLists.txt
+E:/backup/hello-opengl/opengl-learning/build/CMakeFiles/3.18.1/CMakeCCompiler.cmake
+E:/backup/hello-opengl/opengl-learning/build/CMakeFiles/3.18.1/CMakeCXXCompiler.cmake
+E:/backup/hello-opengl/opengl-learning/build/CMakeFiles/3.18.1/CMakeRCCompiler.cmake
+E:/backup/hello-opengl/opengl-learning/build/CMakeFiles/3.18.1/CMakeSystem.cmake
 F:/vcpkg/installed/x86-windows/share/glad/gladConfig.cmake
 F:/vcpkg/installed/x86-windows/share/glad/gladConfigVersion.cmake
 F:/vcpkg/installed/x86-windows/share/glad/gladTargets-debug.cmake

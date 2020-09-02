@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{159C860A-7959-39C1-A4E4-90D973BE158F}</ProjectGuid>
+    <ProjectGuid>{D586AB67-4331-3B10-B967-895D7B2774B3}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>win32</Platform>
@@ -66,7 +66,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\backup\opengl-learning\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\backup\hello-opengl\opengl-learning\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -76,7 +76,7 @@
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-cd E:\backup\opengl-learning\build
+cd E:\backup\hello-opengl\opengl-learning\build
 if %errorlevel% neq 0 goto :cmEnd
 E:
 if %errorlevel% neq 0 goto :cmEnd
@@ -92,7 +92,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\backup\opengl-learning\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\backup\hello-opengl\opengl-learning\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -102,7 +102,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-cd E:\backup\opengl-learning\build
+cd E:\backup\hello-opengl\opengl-learning\build
 if %errorlevel% neq 0 goto :cmEnd
 E:
 if %errorlevel% neq 0 goto :cmEnd
@@ -118,7 +118,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\backup\opengl-learning\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\backup\hello-opengl\opengl-learning\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -128,7 +128,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-cd E:\backup\opengl-learning\build
+cd E:\backup\hello-opengl\opengl-learning\build
 if %errorlevel% neq 0 goto :cmEnd
 E:
 if %errorlevel% neq 0 goto :cmEnd
@@ -144,7 +144,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\backup\opengl-learning\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\backup\hello-opengl\opengl-learning\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -154,7 +154,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-cd E:\backup\opengl-learning\build
+cd E:\backup\hello-opengl\opengl-learning\build
 if %errorlevel% neq 0 goto :cmEnd
 E:
 if %errorlevel% neq 0 goto :cmEnd
@@ -169,7 +169,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\backup\opengl-learning\build\CMakeFiles\f2d3f6edb5a52289e3d8c6f4563ee8e4\PACKAGE_force.rule">
+    <CustomBuild Include="E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\3f44292c6336f52db1fe3d5618a44af8\PACKAGE_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
 cd .
@@ -181,7 +181,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\backup\opengl-learning\build\CMakeFiles\PACKAGE_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\PACKAGE_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'"> </Message>
@@ -195,7 +195,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\backup\opengl-learning\build\CMakeFiles\PACKAGE_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\PACKAGE_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'"> </Message>
@@ -209,7 +209,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\backup\opengl-learning\build\CMakeFiles\PACKAGE_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\PACKAGE_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'"> </Message>
@@ -223,20 +223,20 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\backup\opengl-learning\build\CMakeFiles\PACKAGE_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\PACKAGE_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\backup\opengl-learning\build\ZERO_CHECK.vcxproj">
-      <Project>{10E4D3D8-B5A2-3242-8CC0-F7FC82B41E3F}</Project>
+    <ProjectReference Include="E:\backup\hello-opengl\opengl-learning\build\ZERO_CHECK.vcxproj">
+      <Project>{3F262AA2-8276-3854-A407-EC0CE34D184E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\backup\opengl-learning\build\ALL_BUILD.vcxproj">
-      <Project>{BF1830C8-A42D-39DA-B780-750639591362}</Project>
+    <ProjectReference Include="E:\backup\hello-opengl\opengl-learning\build\ALL_BUILD.vcxproj">
+      <Project>{333C27E4-3771-3EB3-BBFA-E06B298C5B4D}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

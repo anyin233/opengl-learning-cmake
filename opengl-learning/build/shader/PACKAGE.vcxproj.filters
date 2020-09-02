@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="E:\backup\opengl-learning\build\CMakeFiles\35da66905ff3cdfc63e132f9aeb9cdea\PACKAGE_force.rule">
+    <CustomBuild Include="E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\703a27e91dfec38c0edc370793e56d52\PACKAGE_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{6938DA5F-AC2F-3681-898F-1E6E9DEBFAC4}</UniqueIdentifier>
+      <UniqueIdentifier>{7B885AB7-9A5E-3492-A4CC-68B3850EA288}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-# Install script for directory: E:/backup/opengl-learning/camera
+# Install script for directory: E:/backup/hello-opengl/opengl-learning/camera
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

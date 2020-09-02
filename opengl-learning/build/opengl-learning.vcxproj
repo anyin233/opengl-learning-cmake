@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9080563F-F14A-3A56-9E46-3A5904E6CAFC}</ProjectGuid>
+    <ProjectGuid>{7AF7A9FE-7910-3AC9-BC5F-BA8A1C4D9DB3}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>win32</Platform>
@@ -60,25 +60,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\backup\opengl-learning\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\backup\hello-opengl\opengl-learning\build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">opengl-learning.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">opengl-learning</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\backup\opengl-learning\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\backup\hello-opengl\opengl-learning\build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">opengl-learning.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">opengl-learning</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\backup\opengl-learning\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\backup\hello-opengl\opengl-learning\build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">opengl-learning.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">opengl-learning</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\backup\opengl-learning\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\backup\hello-opengl\opengl-learning\build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">opengl-learning.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">opengl-learning</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.exe</TargetExt>
@@ -87,7 +87,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\backup\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\backup\hello-opengl\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -104,10 +104,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GLFW_DLL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\backup\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\backup\hello-opengl\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\backup\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\backup\hello-opengl\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -117,7 +117,7 @@
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-powershell -noprofile -executionpolicy Bypass -file F:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/backup/opengl-learning/build/Debug/opengl-learning.exe -installedDir F:/vcpkg/installed/x86-windows/debug/bin -OutVariable out
+powershell -noprofile -executionpolicy Bypass -file F:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/backup/hello-opengl/opengl-learning/build/Debug/opengl-learning.exe -installedDir F:/vcpkg/installed/x86-windows/debug/bin -OutVariable out
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -132,8 +132,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/backup/opengl-learning/build/Debug/opengl-learning.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/backup/opengl-learning/build/Debug/opengl-learning.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/backup/hello-opengl/opengl-learning/build/Debug/opengl-learning.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/backup/hello-opengl/opengl-learning/build/Debug/opengl-learning.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -142,7 +142,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\backup\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\backup\hello-opengl\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -159,10 +159,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\backup\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\backup\hello-opengl\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\backup\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\backup\hello-opengl\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -172,7 +172,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-powershell -noprofile -executionpolicy Bypass -file F:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/backup/opengl-learning/build/Release/opengl-learning.exe -installedDir F:/vcpkg/installed/x86-windows/bin -OutVariable out
+powershell -noprofile -executionpolicy Bypass -file F:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/backup/hello-opengl/opengl-learning/build/Release/opengl-learning.exe -installedDir F:/vcpkg/installed/x86-windows/bin -OutVariable out
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -187,8 +187,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/backup/opengl-learning/build/Release/opengl-learning.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/backup/opengl-learning/build/Release/opengl-learning.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/backup/hello-opengl/opengl-learning/build/Release/opengl-learning.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/backup/hello-opengl/opengl-learning/build/Release/opengl-learning.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -197,7 +197,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\backup\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\backup\hello-opengl\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -214,10 +214,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\backup\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\backup\hello-opengl\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\backup\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\backup\hello-opengl\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -227,7 +227,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-powershell -noprofile -executionpolicy Bypass -file F:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/backup/opengl-learning/build/MinSizeRel/opengl-learning.exe -installedDir F:/vcpkg/installed/x86-windows/bin -OutVariable out
+powershell -noprofile -executionpolicy Bypass -file F:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/backup/hello-opengl/opengl-learning/build/MinSizeRel/opengl-learning.exe -installedDir F:/vcpkg/installed/x86-windows/bin -OutVariable out
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -242,8 +242,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/backup/opengl-learning/build/MinSizeRel/opengl-learning.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/backup/opengl-learning/build/MinSizeRel/opengl-learning.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/backup/hello-opengl/opengl-learning/build/MinSizeRel/opengl-learning.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/backup/hello-opengl/opengl-learning/build/MinSizeRel/opengl-learning.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -252,7 +252,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\backup\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\backup\hello-opengl\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -268,10 +268,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\backup\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\backup\hello-opengl\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\backup\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\backup\hello-opengl\opengl-learning\lib;F:\vcpkg\installed\x86-windows\include\glad;F:\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -281,7 +281,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-powershell -noprofile -executionpolicy Bypass -file F:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/backup/opengl-learning/build/RelWithDebInfo/opengl-learning.exe -installedDir F:/vcpkg/installed/x86-windows/bin -OutVariable out
+powershell -noprofile -executionpolicy Bypass -file F:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/backup/hello-opengl/opengl-learning/build/RelWithDebInfo/opengl-learning.exe -installedDir F:/vcpkg/installed/x86-windows/bin -OutVariable out
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -296,8 +296,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/backup/opengl-learning/build/RelWithDebInfo/opengl-learning.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/backup/opengl-learning/build/RelWithDebInfo/opengl-learning.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/backup/hello-opengl/opengl-learning/build/RelWithDebInfo/opengl-learning.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/backup/hello-opengl/opengl-learning/build/RelWithDebInfo/opengl-learning.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -305,11 +305,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\backup\opengl-learning\CMakeLists.txt">
+    <CustomBuild Include="E:\backup\hello-opengl\opengl-learning\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule E:/backup/opengl-learning/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule E:/backup/hello-opengl/opengl-learning/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/backup/opengl-learning -BE:/backup/opengl-learning/build --check-stamp-file E:/backup/opengl-learning/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/backup/hello-opengl/opengl-learning -BE:/backup/hello-opengl/opengl-learning/build --check-stamp-file E:/backup/hello-opengl/opengl-learning/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -317,12 +317,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;E:\backup\opengl-learning\build\CMakeFiles\3.18.1\CMakeCCompiler.cmake;E:\backup\opengl-learning\build\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;E:\backup\opengl-learning\build\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;E:\backup\opengl-learning\build\CMakeFiles\3.18.1\CMakeSystem.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfig.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-release.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Config.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3ConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-release.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets.cmake;F:\vcpkg\installed\x86-windows\share\glm\glm-config.cmake;F:\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\backup\opengl-learning\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\3.18.1\CMakeCCompiler.cmake;E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\3.18.1\CMakeSystem.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfig.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-release.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Config.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3ConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-release.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets.cmake;F:\vcpkg\installed\x86-windows\share\glm\glm-config.cmake;F:\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule E:/backup/opengl-learning/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule E:/backup/hello-opengl/opengl-learning/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/backup/opengl-learning -BE:/backup/opengl-learning/build --check-stamp-file E:/backup/opengl-learning/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/backup/hello-opengl/opengl-learning -BE:/backup/hello-opengl/opengl-learning/build --check-stamp-file E:/backup/hello-opengl/opengl-learning/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -330,12 +330,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;E:\backup\opengl-learning\build\CMakeFiles\3.18.1\CMakeCCompiler.cmake;E:\backup\opengl-learning\build\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;E:\backup\opengl-learning\build\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;E:\backup\opengl-learning\build\CMakeFiles\3.18.1\CMakeSystem.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfig.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-release.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Config.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3ConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-release.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets.cmake;F:\vcpkg\installed\x86-windows\share\glm\glm-config.cmake;F:\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\backup\opengl-learning\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\3.18.1\CMakeCCompiler.cmake;E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\3.18.1\CMakeSystem.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfig.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-release.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Config.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3ConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-release.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets.cmake;F:\vcpkg\installed\x86-windows\share\glm\glm-config.cmake;F:\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule E:/backup/opengl-learning/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule E:/backup/hello-opengl/opengl-learning/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/backup/opengl-learning -BE:/backup/opengl-learning/build --check-stamp-file E:/backup/opengl-learning/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/backup/hello-opengl/opengl-learning -BE:/backup/hello-opengl/opengl-learning/build --check-stamp-file E:/backup/hello-opengl/opengl-learning/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -343,12 +343,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;E:\backup\opengl-learning\build\CMakeFiles\3.18.1\CMakeCCompiler.cmake;E:\backup\opengl-learning\build\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;E:\backup\opengl-learning\build\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;E:\backup\opengl-learning\build\CMakeFiles\3.18.1\CMakeSystem.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfig.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-release.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Config.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3ConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-release.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets.cmake;F:\vcpkg\installed\x86-windows\share\glm\glm-config.cmake;F:\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\backup\opengl-learning\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\3.18.1\CMakeCCompiler.cmake;E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\3.18.1\CMakeSystem.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfig.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-release.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Config.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3ConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-release.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets.cmake;F:\vcpkg\installed\x86-windows\share\glm\glm-config.cmake;F:\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule E:/backup/opengl-learning/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule E:/backup/hello-opengl/opengl-learning/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/backup/opengl-learning -BE:/backup/opengl-learning/build --check-stamp-file E:/backup/opengl-learning/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/backup/hello-opengl/opengl-learning -BE:/backup/hello-opengl/opengl-learning/build --check-stamp-file E:/backup/hello-opengl/opengl-learning/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -356,27 +356,27 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;E:\backup\opengl-learning\build\CMakeFiles\3.18.1\CMakeCCompiler.cmake;E:\backup\opengl-learning\build\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;E:\backup\opengl-learning\build\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;E:\backup\opengl-learning\build\CMakeFiles\3.18.1\CMakeSystem.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfig.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-release.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Config.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3ConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-release.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets.cmake;F:\vcpkg\installed\x86-windows\share\glm\glm-config.cmake;F:\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\backup\opengl-learning\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\3.18.1\CMakeCCompiler.cmake;E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\3.18.1\CMakeSystem.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfig.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-release.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Config.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3ConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-release.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets.cmake;F:\vcpkg\installed\x86-windows\share\glm\glm-config.cmake;F:\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\backup\hello-opengl\opengl-learning\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\backup\opengl-learning\main.cpp" />
+    <ClCompile Include="E:\backup\hello-opengl\opengl-learning\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\backup\opengl-learning\build\ZERO_CHECK.vcxproj">
-      <Project>{10E4D3D8-B5A2-3242-8CC0-F7FC82B41E3F}</Project>
+    <ProjectReference Include="E:\backup\hello-opengl\opengl-learning\build\ZERO_CHECK.vcxproj">
+      <Project>{3F262AA2-8276-3854-A407-EC0CE34D184E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\backup\opengl-learning\build\camera\CameraFunc.vcxproj">
-      <Project>{9E3C0849-0205-3307-B363-0AE0186571A6}</Project>
+    <ProjectReference Include="E:\backup\hello-opengl\opengl-learning\build\camera\CameraFunc.vcxproj">
+      <Project>{36ED2712-577F-3D00-BAE8-8660EC2E61A6}</Project>
       <Name>CameraFunc</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\backup\opengl-learning\build\shader\ShaderFunc.vcxproj">
-      <Project>{5D819C6E-3825-3FC2-86A9-004A60B454FB}</Project>
+    <ProjectReference Include="E:\backup\hello-opengl\opengl-learning\build\shader\ShaderFunc.vcxproj">
+      <Project>{96C8D90C-AB77-3C0E-AFED-1AF2724D6DF5}</Project>
       <Name>ShaderFunc</Name>
     </ProjectReference>
   </ItemGroup>

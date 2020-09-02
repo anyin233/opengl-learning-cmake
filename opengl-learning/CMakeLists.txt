@@ -12,8 +12,6 @@ include_directories(lib)
 
 add_executable(opengl-learning main.cpp)
 
-
-
 find_package(glad CONFIG REQUIRED)
 target_link_libraries(opengl-learning PUBLIC glad::glad)
 

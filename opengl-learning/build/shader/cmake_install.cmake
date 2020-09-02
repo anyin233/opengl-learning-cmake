@@ -1,4 +1,4 @@
-# Install script for directory: E:/backup/opengl-learning/shader
+# Install script for directory: E:/backup/hello-opengl/opengl-learning/shader
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

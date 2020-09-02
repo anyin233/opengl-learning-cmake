@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BF1830C8-A42D-39DA-B780-750639591362}</ProjectGuid>
+    <ProjectGuid>{333C27E4-3771-3EB3-BBFA-E06B298C5B4D}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>win32</Platform>
@@ -105,11 +105,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\backup\opengl-learning\shader\CMakeLists.txt">
+    <CustomBuild Include="E:\backup\hello-opengl\opengl-learning\shader\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule E:/backup/opengl-learning/shader/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule E:/backup/hello-opengl/opengl-learning/shader/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/backup/opengl-learning -BE:/backup/opengl-learning/build --check-stamp-file E:/backup/opengl-learning/build/shader/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/backup/hello-opengl/opengl-learning -BE:/backup/hello-opengl/opengl-learning/build --check-stamp-file E:/backup/hello-opengl/opengl-learning/build/shader/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -118,11 +118,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">F:\vcpkg\installed\x86-windows\share\glad\gladConfig.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-release.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Config.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3ConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-release.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\backup\opengl-learning\build\shader\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\backup\hello-opengl\opengl-learning\build\shader\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule E:/backup/opengl-learning/shader/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule E:/backup/hello-opengl/opengl-learning/shader/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/backup/opengl-learning -BE:/backup/opengl-learning/build --check-stamp-file E:/backup/opengl-learning/build/shader/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/backup/hello-opengl/opengl-learning -BE:/backup/hello-opengl/opengl-learning/build --check-stamp-file E:/backup/hello-opengl/opengl-learning/build/shader/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,11 +131,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">F:\vcpkg\installed\x86-windows\share\glad\gladConfig.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-release.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Config.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3ConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-release.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\backup\opengl-learning\build\shader\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\backup\hello-opengl\opengl-learning\build\shader\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule E:/backup/opengl-learning/shader/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule E:/backup/hello-opengl/opengl-learning/shader/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/backup/opengl-learning -BE:/backup/opengl-learning/build --check-stamp-file E:/backup/opengl-learning/build/shader/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/backup/hello-opengl/opengl-learning -BE:/backup/hello-opengl/opengl-learning/build --check-stamp-file E:/backup/hello-opengl/opengl-learning/build/shader/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -144,11 +144,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">F:\vcpkg\installed\x86-windows\share\glad\gladConfig.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-release.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Config.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3ConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-release.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\backup\opengl-learning\build\shader\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\backup\hello-opengl\opengl-learning\build\shader\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule E:/backup/opengl-learning/shader/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule E:/backup/hello-opengl/opengl-learning/shader/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/backup/opengl-learning -BE:/backup/opengl-learning/build --check-stamp-file E:/backup/opengl-learning/build/shader/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/backup/hello-opengl/opengl-learning -BE:/backup/hello-opengl/opengl-learning/build --check-stamp-file E:/backup/hello-opengl/opengl-learning/build/shader/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -157,25 +157,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">F:\vcpkg\installed\x86-windows\share\glad\gladConfig.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets-release.cmake;F:\vcpkg\installed\x86-windows\share\glad\gladTargets.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Config.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3ConfigVersion.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-debug.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets-release.cmake;F:\vcpkg\installed\x86-windows\share\glfw3\glfw3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\backup\opengl-learning\build\shader\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\backup\hello-opengl\opengl-learning\build\shader\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\backup\opengl-learning\build\ZERO_CHECK.vcxproj">
-      <Project>{10E4D3D8-B5A2-3242-8CC0-F7FC82B41E3F}</Project>
+    <ProjectReference Include="E:\backup\hello-opengl\opengl-learning\build\ZERO_CHECK.vcxproj">
+      <Project>{3F262AA2-8276-3854-A407-EC0CE34D184E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\backup\opengl-learning\build\camera\CameraFunc.vcxproj">
-      <Project>{9E3C0849-0205-3307-B363-0AE0186571A6}</Project>
+    <ProjectReference Include="E:\backup\hello-opengl\opengl-learning\build\camera\CameraFunc.vcxproj">
+      <Project>{36ED2712-577F-3D00-BAE8-8660EC2E61A6}</Project>
       <Name>CameraFunc</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\backup\opengl-learning\build\shader\ShaderFunc.vcxproj">
-      <Project>{5D819C6E-3825-3FC2-86A9-004A60B454FB}</Project>
+    <ProjectReference Include="E:\backup\hello-opengl\opengl-learning\build\shader\ShaderFunc.vcxproj">
+      <Project>{96C8D90C-AB77-3C0E-AFED-1AF2724D6DF5}</Project>
       <Name>ShaderFunc</Name>
     </ProjectReference>
   </ItemGroup>

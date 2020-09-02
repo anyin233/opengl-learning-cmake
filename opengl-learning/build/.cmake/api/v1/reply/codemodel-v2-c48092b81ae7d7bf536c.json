@@ -1,0 +1,744 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "shader",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "shader",
+					"targetIndexes" : 
+					[
+						1,
+						7
+					]
+				},
+				{
+					"build" : "camera",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "camera",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "opengl-learning",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "camera",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "camera",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-912d324f0e2e78baa219.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@2bbbf1053401b8be33b8",
+					"jsonFile" : "target-ALL_BUILD-Debug-32bf57f45d172a5c1098.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CameraFunc::@f1ff328599b7b689f34c",
+					"jsonFile" : "target-CameraFunc-Debug-306349c88b07ed68d906.json",
+					"name" : "CameraFunc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Continuous::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Continuous-Debug-55404abc34ac3b00fafd.json",
+					"name" : "Continuous",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Experimental::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Experimental-Debug-9b85a67785f49f1cd612.json",
+					"name" : "Experimental",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Nightly::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Nightly-Debug-225124e805f1811894e6.json",
+					"name" : "Nightly",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyMemoryCheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-132832fd01d3eb79f49d.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ShaderFunc::@2bbbf1053401b8be33b8",
+					"jsonFile" : "target-ShaderFunc-Debug-94e2b0e2d948466495ce.json",
+					"name" : "ShaderFunc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-a3e3aad8775941b9867b.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opengl-learning::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opengl-learning-Debug-a3dea7b7ba4f1be3adc7.json",
+					"name" : "opengl-learning",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "shader",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "shader",
+					"targetIndexes" : 
+					[
+						1,
+						7
+					]
+				},
+				{
+					"build" : "camera",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "camera",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "opengl-learning",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "camera",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "camera",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-912d324f0e2e78baa219.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@2bbbf1053401b8be33b8",
+					"jsonFile" : "target-ALL_BUILD-Release-32bf57f45d172a5c1098.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CameraFunc::@f1ff328599b7b689f34c",
+					"jsonFile" : "target-CameraFunc-Release-cc5bd82f8864e48473ee.json",
+					"name" : "CameraFunc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Continuous::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Continuous-Release-55404abc34ac3b00fafd.json",
+					"name" : "Continuous",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Experimental::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Experimental-Release-9b85a67785f49f1cd612.json",
+					"name" : "Experimental",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Nightly::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Nightly-Release-225124e805f1811894e6.json",
+					"name" : "Nightly",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyMemoryCheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyMemoryCheck-Release-132832fd01d3eb79f49d.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ShaderFunc::@2bbbf1053401b8be33b8",
+					"jsonFile" : "target-ShaderFunc-Release-d3129fb9d91ef5b03864.json",
+					"name" : "ShaderFunc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-a3e3aad8775941b9867b.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opengl-learning::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opengl-learning-Release-0ec3a3d1a44f251f6667.json",
+					"name" : "opengl-learning",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "shader",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "shader",
+					"targetIndexes" : 
+					[
+						1,
+						7
+					]
+				},
+				{
+					"build" : "camera",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "camera",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "opengl-learning",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "camera",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "camera",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-912d324f0e2e78baa219.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@2bbbf1053401b8be33b8",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-32bf57f45d172a5c1098.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CameraFunc::@f1ff328599b7b689f34c",
+					"jsonFile" : "target-CameraFunc-MinSizeRel-64ad46173f0c2dea77ca.json",
+					"name" : "CameraFunc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Continuous::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Continuous-MinSizeRel-55404abc34ac3b00fafd.json",
+					"name" : "Continuous",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Experimental::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Experimental-MinSizeRel-9b85a67785f49f1cd612.json",
+					"name" : "Experimental",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Nightly::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Nightly-MinSizeRel-225124e805f1811894e6.json",
+					"name" : "Nightly",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyMemoryCheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyMemoryCheck-MinSizeRel-132832fd01d3eb79f49d.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ShaderFunc::@2bbbf1053401b8be33b8",
+					"jsonFile" : "target-ShaderFunc-MinSizeRel-ef1c92c4a294d9dfad7d.json",
+					"name" : "ShaderFunc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-a3e3aad8775941b9867b.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opengl-learning::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opengl-learning-MinSizeRel-fe280d763f13503ebd92.json",
+					"name" : "opengl-learning",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "shader",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "shader",
+					"targetIndexes" : 
+					[
+						1,
+						7
+					]
+				},
+				{
+					"build" : "camera",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "camera",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "opengl-learning",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "camera",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "camera",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-912d324f0e2e78baa219.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@2bbbf1053401b8be33b8",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-32bf57f45d172a5c1098.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CameraFunc::@f1ff328599b7b689f34c",
+					"jsonFile" : "target-CameraFunc-RelWithDebInfo-93a1b58540a7f1679df8.json",
+					"name" : "CameraFunc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Continuous::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Continuous-RelWithDebInfo-55404abc34ac3b00fafd.json",
+					"name" : "Continuous",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Experimental::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Experimental-RelWithDebInfo-9b85a67785f49f1cd612.json",
+					"name" : "Experimental",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Nightly::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Nightly-RelWithDebInfo-225124e805f1811894e6.json",
+					"name" : "Nightly",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NightlyMemoryCheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NightlyMemoryCheck-RelWithDebInfo-132832fd01d3eb79f49d.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ShaderFunc::@2bbbf1053401b8be33b8",
+					"jsonFile" : "target-ShaderFunc-RelWithDebInfo-ed180d2ee669cc31f7eb.json",
+					"name" : "ShaderFunc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-a3e3aad8775941b9867b.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opengl-learning::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opengl-learning-RelWithDebInfo-fbf7e2b5dac778357198.json",
+					"name" : "opengl-learning",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/backup/hello-opengl/opengl-learning/build",
+		"source" : "E:/backup/hello-opengl/opengl-learning"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

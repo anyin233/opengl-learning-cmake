@@ -1,5 +1,5 @@
 # CMake generation dependency list for this directory.
-E:/backup/opengl-learning/shader/CMakeLists.txt
+E:/backup/hello-opengl/opengl-learning/shader/CMakeLists.txt
 F:/vcpkg/installed/x86-windows/share/glad/gladConfig.cmake
 F:/vcpkg/installed/x86-windows/share/glad/gladConfigVersion.cmake
 F:/vcpkg/installed/x86-windows/share/glad/gladTargets-debug.cmake

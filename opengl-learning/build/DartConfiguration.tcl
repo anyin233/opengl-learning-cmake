@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: E:/backup/opengl-learning
-BuildDirectory: E:/backup/opengl-learning/build
+SourceDirectory: E:/backup/hello-opengl/opengl-learning
+BuildDirectory: E:/backup/hello-opengl/opengl-learning/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "E:/backup/opengl-learning"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "E:/backup/hello-opengl/opengl-learning"
 MakeCommand: "C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
